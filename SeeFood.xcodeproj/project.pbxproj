@@ -13,6 +13,7 @@
 		232D60B721B6D41B00EC3801 /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 232D60B521B6D41B00EC3801 /* SeeFood.xcdatamodeld */; };
 		232D60B921B6D42D00EC3801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232D60B821B6D42D00EC3801 /* Assets.xcassets */; };
 		232D60BC21B6D42D00EC3801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232D60BA21B6D42D00EC3801 /* LaunchScreen.storyboard */; };
+		232D60C421B6D47200EC3801 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 232D60C321B6D47100EC3801 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		232D60B821B6D42D00EC3801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232D60BB21B6D42D00EC3801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232D60BD21B6D42D00EC3801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232D60C321B6D47100EC3801 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				232D60B821B6D42D00EC3801 /* Assets.xcassets */,
 				232D60BA21B6D42D00EC3801 /* LaunchScreen.storyboard */,
 				232D60BD21B6D42D00EC3801 /* Info.plist */,
+				232D60C321B6D47100EC3801 /* Inceptionv3.mlmodel */,
 				232D60B521B6D41B00EC3801 /* SeeFood.xcdatamodeld */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232D60B121B6D41B00EC3801 /* ViewController.swift in Sources */,
+				232D60C421B6D47200EC3801 /* Inceptionv3.mlmodel in Sources */,
 				232D60B721B6D41B00EC3801 /* SeeFood.xcdatamodeld in Sources */,
 				232D60AF21B6D41B00EC3801 /* AppDelegate.swift in Sources */,
 			);
