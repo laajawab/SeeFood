@@ -13,6 +13,8 @@ import Vision
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var topImageView: UIImageView!
+    @IBOutlet weak var backgroundImageView: UIImageView!
     
     let imagePicker = UIImagePickerController()
     
@@ -22,6 +24,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagePicker.delegate = self
         imagePicker.sourceType  = .savedPhotosAlbum
         imagePicker.allowsEditing = false
+        backgroundImageView.image = #imageLiteral(resourceName: "hotdogBackground")
         
     }
     
@@ -57,10 +60,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                     
                     self.navigationItem.title = "Hotdog!"
                     self.navigationController?.navigationBar.barTintColor = UIColor.green
+                    self.topImageView.image = #imageLiteral(resourceName: "hotdog")
                 }
                 else {
                     self.navigationItem.title = "Not Hotdog!"
                     self.navigationController?.navigationBar.barTintColor = UIColor.red
+                    self.topImageView.image = #imageLiteral(resourceName: "not-hotdog")
                 }
             }
         })
